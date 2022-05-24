@@ -89,7 +89,12 @@ input, select, textarea {
 	*, *:before, *:after {
 		box-sizing: inherit;
 	}
+	p{
+		font-weight: 400;
+		color: #000;
+		margin-top: 100px;
 
+	}
 	body {
 		background: #ffffff;
 		height: 100%;
@@ -2244,7 +2249,7 @@ input, select, textarea {
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), white;
+		background: url("images/overlay.png"), url("../../images/dev.svg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
